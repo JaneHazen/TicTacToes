@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Righteous');
 body{
   text-align:center;
   background-color: #A5907E;
@@ -19,7 +20,7 @@ body{
 }
 
 button{
-  font-family: 'Teko', sans-serif;
+  font-family: 'Righteous', cursive;
   margin: 10px;
   margin-right:200px;
   padding: 5px;
@@ -39,14 +40,16 @@ button:hover{
 }
 
 h1 {
-  font-family: 'Teko', sans-serif;
+  font-family: 'Righteous', cursive;
   color: #443730;
   margin-right: 100px;
 }
 
 h2 {
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 30px;
   color: #443730;
-  margin-right:200px;
+  margin-right:100px;
 }
 
