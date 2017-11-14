@@ -17,6 +17,7 @@ body{
   margin: auto;
   border: 3px solid #443730;
   border-collapse: collapse;
+  cursor: pointer;
 }
 
 button{
