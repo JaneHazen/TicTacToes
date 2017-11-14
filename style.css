@@ -41,14 +41,12 @@ button:hover{
 h1 {
   font-family: 'Teko', sans-serif;
   color: #443730;
-  text-align: left;
-  padding-left: 80px;
+  margin-right: 100px;
 }
 
 h2 {
   font-family: 'Shadows Into Light Two', cursive;
   color: #443730;
-  text-align: left;
-  padding-left: 100px;
+  margin-right:200px;
 }
 
