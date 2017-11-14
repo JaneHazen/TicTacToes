@@ -1,14 +1,54 @@
+body{
+  text-align:center;
+  background-color: #A5907E;
+}
 .square {
   height:80px;
   width:80px;
   text-align: center;
   border: 1px solid black;
-
+  font-family: 'Questrial', sans-serif;
+  color: #786452;
 }
 
 .board {
+  background-color: #F7DAD9;
   margin: auto;
-  border: 1px solid black;
+  border: 3px solid #443730;
   border-collapse: collapse;
+}
+
+button{
+  font-family: 'Teko', sans-serif;
+  margin: 10px;
+  margin-right:200px;
+  padding: 5px;
+  border-radius: 0;
+  background-color: white;
+  border: 2px solid #550C18;
+  color: #550C18;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color:#550C18;
+  color: #F7DAD9;
+  font-weight: bold;
+  border: 2px solid #F7DAD9;
+
+}
+
+h1 {
+  font-family: 'Teko', sans-serif;
+  color: #443730;
+  text-align: left;
+  padding-left: 80px;
+}
+
+h2 {
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #443730;
+  text-align: left;
+  padding-left: 100px;
 }
 
