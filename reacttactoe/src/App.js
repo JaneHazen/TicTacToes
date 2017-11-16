@@ -29,12 +29,20 @@ class App extends Component {
     if(result === "X"){
       this.setState({
         gameEnded: true,
-        winner: "X"
+        winner: "X",
+        winnerLine: "X Wins!"
       })
     } else if (result === "O"){
       this.setState({
         gameEnded: true,
-        winner: "O"
+        winner: "O",
+        winnerLine: "O Wins!"
+      })
+    } else if(result=="draw"){
+      this.setState({
+        gameEnded:true,
+        winner: "draw",
+        winnerLine: "It's a draw!"
       })
     }
   }
@@ -46,6 +54,10 @@ checkWinner(){
       if(board[moves[i][0]] == board[moves[i][1]] && board[moves[i][1]] == board[moves[i][2]])
           return board[moves[i][0]];
     }
+
+    if(this.state.totalMoves == 9){
+      return 'draw';
+    }
 }
 
 
@@ -53,8 +65,9 @@ checkWinner(){
     return (
       <div id="tictactoe">
         <div id="head">
-          Tic REACT Toe!
+          Tic REACT Toe
         </div>
+        <div id="status">{this.state.winnerLine}</div>
         <div id="board" onClick={(e)=> this.clicked(e)}>
           <div className="square" data-square="0"></div>
           <div className="square" data-square="1"></div>
