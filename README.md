@@ -8,6 +8,9 @@
 
 <img src="https://i.imgur.com/BA2o01r.png" width="280" height="325"> <img src="https://i.imgur.com/6Dpl8nn.png" width="280" height="325"> <img src="https://i.imgur.com/KV1GNz2.png" width="280" height="325">
 
+* Angular: 
+
+<img src="https://i.imgur.com/OwBp3ay.png" width="280" height="325"> <img src="https://i.imgur.com/wbXYp5O.png" width="280" height="325"> <img src="https://i.imgur.com/Qb9JgpE.png" width="280" height="325">
 
 
 
